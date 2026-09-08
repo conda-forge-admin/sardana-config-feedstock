@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sardana-config
-  version: "3.6.0"
+  version: "3.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/sardana_config-${{ version }}.tar.gz
-  sha256: 5bfa31aa1e318a01941406d1542261a74e4fae0ac1e2402be70c4628e82f970d
+  sha256: 663ce55310a564ed75f0157617ab609cd41c1120e5b144c26a04f196f34027f5
 
 build:
   number: 0
